@@ -1,0 +1,61 @@
+/* Fundo espacial */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGdhbGF4eXxlbnwwfHx8fDE2NDk1NjcwNw&ixlib=rb-1.2.1&q=80&w=1080');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff; /* Ajuste a cor do texto se necessário */
+}
+
+/* Estilo do card */
+.card {
+    background-color: rgba(255, 255, 255, 0.8); /* Cor de fundo semi-transparente */
+    color: #000; /* Cor do texto */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+    margin: 20px;
+    text-align: center;
+}
+
+/* Efeito de gradiente ao passar o mouse sobre o card */
+.card:hover {
+    background: linear-gradient(180deg, #000000, #333333);
+}
+
+/* Estilo para o cabeçalho do card */
+.header {
+    background-color: #c1cedb;
+    color: rgba(135, 48, 83, 0.114);
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+/* Efeito de hover no cabeçalho */
+.header:hover {
+    background-color: #a1b0c0;
+}
+
+/* Estilo do botão */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Outros estilos para .social-links, .footer, .loader, e .gorilla */
